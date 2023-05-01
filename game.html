@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>TRIET CHECKERS</title>
+        <link rel="stylesheet" type="text/css" href="style.css" media="all" />
+        <script type="text/javascript" src="action.js"></script>
+    </head>
+
+    <body onload="drawGameBoard(8,8) & showCheckerPieces();">
+        <h1>Javascript Checkers</h1>
+        <button onclick="showGamePieces(8,8);">Show Pieces</button>
+        <button onclick="randomMove();">Random Move</button>
+        <table>
+            <tr>
+                <td class="black"></td>
+                <td class="white"></td>
+                <td class="redpiece"></td>
+                <td class="blackpiece"></td>
+            </tr>
+        </table>
+
+        <p><span id="member">Who</span> initiates the checkerboard. </p>
+        <p><span id="member">Who</span> populates the checker coins. </p>
+        
+
+
+        <div id="board"></div>
+
+       
+    </body>
+</html>
